@@ -1,0 +1,39 @@
+{
+  "name": "webpack-salesforceboilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for React apps using the Lightning design system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Daniele Piccone <mild.taste@gmail.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@salesforce-ux/design-system": "^2.11.9",
+    "@salesforce/babel-preset-design-system-react": "^3.0.0",
+    "@salesforce/design-system-react": "^0.10.19",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^2.0.5",
+    "style-loader": "^0.23.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
